@@ -1,0 +1,66 @@
+# Python cache files
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+# Python packaging
+
+build/
+dist/
+*.egg-info/
+
+# Environment variables and secrets
+
+.env
+.env.*
+
+# IDE and editor settings
+
+.vscode/
+.idea/
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model weights and checkpoints
+
+*.pth
+*.pt
+*.ckpt
+
+# Downloaded datasets
+
+data/
+datasets/
+MNIST/
+mnist-dataset/
+
+# Generated prediction images
+
+drawn_digit.png
+predicted_digit.png
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
+*.bak
+*.swp
